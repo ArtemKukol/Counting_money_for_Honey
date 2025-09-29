@@ -17,17 +17,30 @@
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
-	background-color: rgb(254, 223, 162);
+	background-color: rgb(153, 220, 121);
 	display: flex;
 	flex-direction: column;
 	height: 1000px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #fff;
+	background-color: rgb(153, 220, 121);
 	padding-top: 20px;
 	margin-bottom: 20px;
 }
@@ -40,13 +53,13 @@ body {
 
 .container h1 {
 	text-align: center;
-	color: #ff0000;
+	color: #4f4f4f;
 	font-family: Roboto-Bold, sans-serif;
 }
 
-.wrapper__text {
+/* .wrapper__text {
 	margin-bottom: 30rem;
-}
+} */
 
 .wrapper__text ol {
 	display: flex;
@@ -72,7 +85,7 @@ td {
 }
 
 .sum {
-	width: 200px;
+	width: 240px;
 }
 
 .summary {
